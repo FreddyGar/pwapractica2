@@ -1,0 +1,53 @@
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Estilos para las imágenes */
+.carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+/* Estilo para la imagen actual */
+.active-slide {
+    display: block;
+}
+
+/* Estilos para los botones de flecha */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 1;
+}
+
+/* Estilo para el botón izquierdo */
+.carousel-control.left {
+    left: 10px;
+}
+
+/* Estilo para el botón derecho */
+.carousel-control.right {
+    right: 10px;
+}
+/* Estilo para la imagen dentro del contenedor */
+.carousel-slide img {
+    width: 600px; /* Ajustamos el ancho de la imagen al 100% del contenedor */
+    height: 800px;
+    max-height: 200px; /* Establecemos la altura máxima que desees */
+    padding: 20%;
+}
+/* Estilo para el contenedor del carrusel */
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
