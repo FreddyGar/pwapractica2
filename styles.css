@@ -20,7 +20,7 @@
 /* Estilos para los botones de flecha */
 .carousel-control {
     position: absolute;
-    top: 50%;
+    top: 25%;
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 30px;
@@ -42,12 +42,5 @@
     height: 800px;
     max-height: 200px; /* Establecemos la altura máxima que desees */
     padding: 20%;
-}
-/* Estilo para el contenedor del carrusel */
-.carousel-container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    
+    margin-top: -15%;
 }
